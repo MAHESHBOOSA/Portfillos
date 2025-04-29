@@ -2,6 +2,7 @@ import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import RR from '../assests/rrchits.png'
 import NGO from '../assests/NGO.png'
+import REC from '../assests/react.png'
 
 const projects = [
   {
@@ -19,11 +20,11 @@ const projects = [
     githubUrl: 'https://github.com/MAHESHBOOSA/New-code_b.git'
   },
   {
-    title: 'Weather Dashboard',
-    description: 'A weather application showing real-time weather data and forecasts.',
-    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b',
-    technologies: ['React', 'OpenWeather API', 'Chart.js'],
-    githubUrl: 'https://github.com'
+    title: 'Portfolio',
+    description: 'Portfolio is a personal project that showcase my skills and projects.',
+    image: REC,
+    technologies: ['React', 'Frontend'],
+    githubUrl: 'https://github.com/MAHESHBOOSA/Portfoilo.git'
   }
 ];
 
