@@ -1,30 +1,29 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import RR from '../assests/rrchits.png'
+import NGO from '../assests/NGO.png'
 
 const projects = [
   {
-    title: 'E-commerce Platform',
-    description: 'A full-stack e-commerce solution built with React, Node.js, and MongoDB.',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Redux'],
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
+    title: 'RRchits',
+    description: 'A full-stack RRchits solution built with Python, Django, and MySql.',
+    image: RR,
+    technologies: ['Frontend', 'Pyhton', 'MySql', 'Django'],
+    githubUrl: 'https://github.com/MAHESHBOOSA/FINANCE.git'
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates.',
-    image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91',
-    technologies: ['React', 'Firebase', 'Tailwind CSS'],
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
+    title: 'NGO Management System',
+    description: 'A collaborative Ngo management System application with real-time updates.',
+    image: NGO,
+    technologies: ['Frontend', 'Python', 'Django', 'MySql'],
+    githubUrl: 'https://github.com/MAHESHBOOSA/New-code_b.git'
   },
   {
     title: 'Weather Dashboard',
     description: 'A weather application showing real-time weather data and forecasts.',
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b',
     technologies: ['React', 'OpenWeather API', 'Chart.js'],
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
+    githubUrl: 'https://github.com'
   }
 ];
 
@@ -69,15 +68,6 @@ const Projects = () => {
                   >
                     <Github size={20} className="mr-2" />
                     Code
-                  </a>
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-indigo-600 hover:text-indigo-700"
-                  >
-                    <ExternalLink size={20} className="mr-2" />
-                    Live Demo
                   </a>
                 </div>
               </div>
