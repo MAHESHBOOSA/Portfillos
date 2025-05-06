@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 const About = React.lazy(() => import('./components/About'));
 const Projects = React.lazy(() => import('./components/Projects'));
 const Skills = React.lazy(() => import('./components/Skills'));
+const Experience = React.lazy(() => import('./components/Experience'));
 const Contact = React.lazy(() => import('./components/Contact'));
 const Footer = React.lazy(() => import('./components/Footer'));
 
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <Suspense fallback={<div className="h-screen flex items-center justify-center">Loading...</div>}>
           <About />
+          <Experience />
           <Projects />
           <Skills />
           <Contact />
