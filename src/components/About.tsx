@@ -1,4 +1,4 @@
-import CV from '../assests/MAHESHBOOSARS.pdf';
+import CV from '../assests/Mahesh_RS (1).pdf';
 
 const About = () => {
   return (
@@ -31,7 +31,7 @@ const About = () => {
             performance.
           </p>
           <a
-              href= {CV} download="Mahesh.pdf"
+              href= {CV} download="Mahesh_RS(1).pdf"
               className="inline-block bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition duration-300"
             >
               Download Resume
